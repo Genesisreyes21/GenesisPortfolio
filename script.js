@@ -384,7 +384,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Contact button
         if (contactButton) {
             contactButton.addEventListener('click', () => {
-                alert('Contact form would open here. This is a placeholder for the demo.');
+                window.location.href = 'mailto:gtr9265@nyu.edu';
             });
         }
     }
