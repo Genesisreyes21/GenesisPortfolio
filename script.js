@@ -286,6 +286,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 technologies: 'Arduino UNO, P5.js, WebGL, Capacitive Touch Sensor (DIY), Photoresistor, LEDs, Push Button',
                 url: 'https://intro.nyuadim.com/2025/05/09/final-project-31/'
             },
+            {
+                title: 'The Shadow Archive',
+                image: 'hungergames.png',
+                description: 'Shadow Archive is an interactive browser artwork that captures a user’s silhouette and digital traces, using micro-expression tracking to reveal how emotions and activity persist online, exploring privacy and digital identity.',
+                role: 'Designer & Developer',
+                year: '2025',
+                technologies: 'Arduino UNO, P5.js, WebGL, Capacitive Touch Sensor (DIY), Photoresistor, LEDs, Push Button',
+                url: 'https://www.notion.so/The-Shadow-Archive-2f482bfdb16b81f29bdad6d6be9ea899?source=copy_link'
+            },
         ];
         
         const project = projects[index];
