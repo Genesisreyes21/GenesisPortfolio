@@ -382,11 +382,17 @@ document.addEventListener("DOMContentLoaded", () => {
         closeModalButton.addEventListener('click', hideProjectModal);
         
         // Contact button
+        // Contact button
         if (contactButton) {
-            contactButton.addEventListener('click', () => {
-                window.location.href = 'mailto:gtr9265@nyu.edu';
+            contactButton.addEventListener('click', (e) => {
+                e.preventDefault();
+                const to = encodeURIComponent('gtr9265@nyu.edu');
+                const subject = encodeURIComponent('Hello');
+                const body = encodeURIComponent('Hi there,');
+                window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${subject}&body=${body}`, '_blank');
             });
         }
+
     }
     
     // Start the application
