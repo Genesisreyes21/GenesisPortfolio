@@ -269,13 +269,13 @@ document.addEventListener("DOMContentLoaded", () => {
     function showProjectModal(index) {
         const projects = [
             {
-                title: 'Website Nature Photography',
-                image: 'naturewebsite.png',
-                description: 'A modern shopping experience with seamless checkout flow and product visualization. Built with React, Three.js, and a headless CMS for content management.',
+                title: 'The Lyre of Thirst',
+                image: 'lyre.png',
+                description: 'An interactive installation that transforms streams of water into "strings" that trigger spoken narratives and soundscapes when touched. It reimagines the desert’s scarce water as a spiritual voice, inviting the public to explore themes of survival and memory through a tactile, multi-sensory experience. Group project for NYUAD Desert Media Lab. Worked along with: Yash Raj, Gunjan, and Ali Noor.',
                 role: 'Developer',
                 year: '2025',
-                technologies: 'HTML, CSS, JavaScript',
-                url: 'https://genesisreyes18.github.io/Website-NaturePhotography/'
+                technologies: 'CircuitPython, Laser sensor, Water pumps, Speakers, LED strips',
+                url: 'https://desert.nyuadim.com/lyreofthirst/'
             },
             {
                 title: 'Catculus Crisis',
