@@ -279,7 +279,7 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             {
                 title: 'Plant Whisperer',
-                image: 'catculus.png',
+                image: 'plant.png',
                 description: 'This project bridges the gap between the natural and digital worlds by using sensors to translate environmental data and human touch into an expressive, interactive avatar. By blending physical biology with real-time digital art, the installation creates a seamless dialogue that encourages deeper empathy and awareness of our connection to the living environment.',
                 role: 'Designer & Developer',
                 year: '2025',
@@ -288,7 +288,7 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             {
                 title: 'The Shadow Archive',
-                image: 'hungergames.png',
+                image: 'shadow.png',
                 description: 'Shadow Archive is an interactive browser artwork that captures a user’s silhouette and digital traces, using micro-expression tracking to reveal how emotions and activity persist online, exploring privacy and digital identity.',
                 role: 'Designer & Developer',
                 year: '2025',
