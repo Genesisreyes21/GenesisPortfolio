@@ -278,32 +278,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 url: 'https://desert.nyuadim.com/lyreofthirst/'
             },
             {
-                title: 'Catculus Crisis',
+                title: 'Plant Whisperer',
                 image: 'catculus.png',
-                description: 'Interactive journey planner with 3D visualizations of destinations. Users can explore locations in an immersive environment before booking their trips.',
-                role: 'Frontend Developer',
-                year: '2022',
-                technologies: 'Vue.js, WebGL, MapBox, Node.js',
-                url: 'https://ariannevt.github.io/Cactulus-Crisis/'
+                description: 'This project bridges the gap between the natural and digital worlds by using sensors to translate environmental data and human touch into an expressive, interactive avatar. By blending physical biology with real-time digital art, the installation creates a seamless dialogue that encourages deeper empathy and awareness of our connection to the living environment.',
+                role: 'Designer & Developer',
+                year: '2025',
+                technologies: 'Arduino UNO, P5.js, WebGL, Capacitive Touch Sensor (DIY), Photoresistor, LEDs, Push Button',
+                url: 'https://intro.nyuadim.com/2025/05/09/final-project-31/'
             },
-            {
-                title: 'Echoes of a day',
-                image: 'echoes.png',
-                description: 'Brand identity and website for a creative studio specializing in digital experiences. The site features custom animations and interactive elements.',
-                role: 'Creative Developer',
-                year: '2023',
-                technologies: 'HTML, CSS, JavaScript, GSAP',
-                url: 'https://alinoorisnerd.github.io/commlab_assign3/'
-            },
-            {
-                title: 'The Hunger Games',
-                image: 'hungergames.png',
-                description: 'Audio-reactive 3D experience for artists to showcase their music. The visualizer responds to frequency and amplitude data from the audio track.',
-                role: 'Technical Lead',
-                year: '2022',
-                technologies: 'Three.js, Web Audio API, React',
-                url: 'https://genesisreyes18.github.io/TheHungerGames/'
-            }
         ];
         
         const project = projects[index];
